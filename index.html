@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-index.html
+<index.html
 urfa.jpg 
-logo.png   
+logo.png >   
 
 <div class="container">
 
@@ -33,7 +33,7 @@ logo.png
 <style>
 body{
    background:
-      url("4..jpeg");
+      url("urfa evi gmini.jpeg");
 
     background-size:cover;
     background-position:center;
@@ -241,13 +241,9 @@ function likert(name){
 <label><input type="radio" name="genel_memnuniyet" value="5">5</label></div></div>
 
 
-<div class="question">
-<label>En memnun kaldığınız alan</label>
-<textarea name="memnun_alan" rows="3" placeholder="Görüşlerinizi yazabilirsiniz..."></textarea>
-</div>
 
 <div class="question">
-<label>Geliştirilmesi gereken alan</label>
+<label>“Daha iyi bir deneyim sunabilmemiz için görüş ve önerilerinizi paylaşır mısınız?”</label>
 <textarea name="gelistirilecek_alan" rows="3" placeholder="Görüşlerinizi yazabilirsiniz..."></textarea>
 </div>
 
@@ -273,16 +269,6 @@ function likert(name){
 </div>
 
 <script>
-const form = document.querySelector("form[action]");
-form.addEventListener("submit", function () {
-    setTimeout(() => {
-        form.style.display = "none";
-        document.getElementById("tesekkur").style.display = "block";
-    }, 500);
-});
-</script>
-
-<script>
 document.getElementById("anketForm").addEventListener("submit", function(e){
     e.preventDefault(); // siyah OK ekranını engeller
 
@@ -291,10 +277,10 @@ document.getElementById("anketForm").addEventListener("submit", function(e){
         body: new FormData(this)
     });
 
-    // formu gizle
+   
     this.style.display = "none";
 
-    // teşekkür mesajını göster
+    
     document.getElementById("tesekkur").style.display = "block";
     
 });
@@ -303,3 +289,4 @@ document.getElementById("anketForm").addEventListener("submit", function(e){
 
 </body>
 </html>
+
