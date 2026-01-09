@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <index.html
 urfa.jpg 
-logo.png >   
+logo.png></index.html>   
 
 <div class="container">
 
@@ -33,7 +33,7 @@ logo.png >
 <style>
 body{
    background:
-      url("urfa evi gmini.jpeg");
+      url("4..jpeg");
 
     background-size:cover;
     background-position:center;
@@ -130,58 +130,21 @@ button:hover{
 <body>
 
 <div class="container">
-<h1>URFA EVİ UYGULAMA OTELİ MEMNUNİYET ANKETİ</h1>
+<h1>URFA EVİ UYGULAMA OTELİ CAFE/RESTORAN MEMNUNİYET ANKETİ</h1>
 <div class="slogan">SADECE KONAKLAMA DEĞİL, TARİHİ YAŞAMAK İÇİN URFA EVİ</div>
 
-<form id="anketForm" action="https://script.google.com/macros/s/AKfycbw-uxY7Njy16G6OdvSz8V7YCfdvrp68s_-cuWs7QvXMoKwZlMqZmUSOQTkPoYHa80280Q/exec" method="post">
+<form id="anketForm" action="https://script.google.com/macros/s/AKfycbxfPOwI4NJ9pP4ci4bsnpp6GbXSslNNKZFC1JsbWZbRjoiSayX3XOAKOrA-A9joo7gj2A/exec" method="post">
 
 
 
 <div class="question">
-<label>Yaş Aralığınız *</label>
-<select name="yas_araligi" required>
+<label>Hangi alanı kullandınız?*</label>
+<select name="kullanılan_alan" required>
 <option value="">Seçiniz</option>
-<option>18–25</option><option>26–35</option><option>36–45</option>
-<option>46–55</option><option>56+</option>
+<option>Cafe</option><option>Restoran</option>
 </select>
 </div>
 
-<div class="question">
-<label>Oda Numaranız *</label>
-<select name="oda_no" required>
-<option value="">Seçiniz</option>
-<option>101</option><option>102</option><option>103</option><option>104</option><option>105</option>
-<option>201</option><option>202</option><option>203</option><option>204</option><option>205</option>
-<option>206</option><option>207</option><option>208</option><option>209</option>
-<option>301</option><option>401</option><option>402</option>
-</select>
-</div>
-
-<div class="question">
-<label>Konaklama Süreniz *</label>
-<select name="konaklama_suresi" required>
-<option value="">Seçiniz</option>
-<option>1–2 gece</option><option>3–5 gece</option>
-<option>6–10 gece</option><option>10+ gece</option>
-</select>
-</div>
-
-<div class="question">
-<label>Konaklama Amacınız *</label>
-<select name="konaklama_amacınız" required>
-<option value="">Seçiniz</option>
-<option>Tatil</option><option>İş</option><option>Diğer</option>
-</select>
-</div>
-
-<div class="question">
-<label>Bizi nereden duydunuz? *</label>
-<select name="nereden_duydunuz" required>
-<option value="">Seçiniz</option>
-<option>Acenta</option><option>Arkadaş tavsiyesi</option>
-<option>Daha önce gelmiştim</option><option>İnternet üzerinden</option>
-</select>
-</div>
 
 
 <script>
@@ -200,50 +163,47 @@ function likert(name){
     (1 = Çok Kötü / 5 = Çok İyi)
 </div>
 
-<div class="question"><label>Oda temizliği *</label><div class="options">
-<label><input type="radio" name="oda_temizlik" value="1" required>1</label><label><input type="radio" name="oda_temizlik" value="2">2</label>
-<label><input type="radio" name="oda_temizlik" value="3">3</label><label><input type="radio" name="oda_temizlik" value="4">4</label>
-<label><input type="radio" name="oda_temizlik" value="5">5</label></div></div>
+<div class="question"><label>Menü çeşitliliğini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="menu_cesit" value="1" required>1</label><label><input type="radio" name="menu_cesit" value="2">2</label>
+<label><input type="radio" name="menu_cesit" value="3">3</label><label><input type="radio" name="menu_cesit" value="4">4</label>
+<label><input type="radio" name="menu_cesit" value="5">5</label></div></div>
 
-<div class="question"><label>Resepsiyon hizmeti *</label><div class="options">
-<label><input type="radio" name="resepsiyon" value="1"required>1</label><label><input type="radio" name="resepsiyon" value="2">2</label>
-<label><input type="radio" name="resepsiyon" value="3">3</label><label><input type="radio" name="resepsiyon" value="4">4</label>
-<label><input type="radio" name="resepsiyon" value="5">5</label></div></div>
+<div class="question"><label>Fiyat–performans dengesini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="fiyat_perfrmns" value="1"required>1</label><label><input type="radio" name="fiyat_perfrmns" value="2">2</label>
+<label><input type="radio" name="fiyat_perfrmns" value="3">3</label><label><input type="radio" name="fiyat_perfrmns" value="4">4</label>
+<label><input type="radio" name="fiyat_perfrmns" value="5">5</label></div></div>
 
-<div class="question"><label>Personel ilgisi *</label><div class="options">
+<div class="question"><label>Personelin ilgisini ve nezaketini nasıl değerlendirirsiniz?*</label><div class="options">
 <label><input type="radio" name="personel" value="1"required>1</label><label><input type="radio" name="personel" value="2">2</label>
 <label><input type="radio" name="personel" value="3">3</label><label><input type="radio" name="personel" value="4">4</label>
 <label><input type="radio" name="personel" value="5">5</label></div></div>
 
-<div class="question"><label>Oda konforu *</label><div class="options">
-<label><input type="radio" name="oda_konforu" value="1"required>1</label><label><input type="radio" name="oda_konforu" value="2">2</label>
-<label><input type="radio" name="oda_konforu" value="3">3</label><label><input type="radio" name="oda_konforu" value="4">4</label>
-<label><input type="radio" name="oda_konforu" value="5">5</label></div></div>
+<div class="question"><label>Siparişlerin hazırlanma süresini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="siparis_sure" value="1"required>1</label><label><input type="radio" name="siparis_sure" value="2">2</label>
+<label><input type="radio" name="siparis_sure" value="3">3</label><label><input type="radio" name="siparis_sure" value="4">4</label>
+<label><input type="radio" name="siparis_sure" value="5">5</label></div></div>
 
-<div class="question"><label>Kahvaltı hizmeti *</label><div class="options">
-<label><input type="radio" name="kahvalti" value="1"required>1</label><label><input type="radio" name="kahvalti" value="2">2</label>
-<label><input type="radio" name="kahvalti" value="3">3</label><label><input type="radio" name="kahvalti"value="4">4</label>
-<label><input type="radio" name="kahvalti" value="5">5</label></div></div>
+<div class="question"><label>Kafe/ortam_ambyns temizliğini nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="temizlik" value="1"required>1</label><label><input type="radio" name="temizlik" value="2">2</label>
+<label><input type="radio" name="temizlik" value="3">3</label><label><input type="radio" name="temizlik"value="4">4</label>
+<label><input type="radio" name="temizlik" value="5">5</label></div></div>
 
-<div class="question"><label>Restoran ve kafe *</label><div class="options">
-<label><input type="radio" name="restoran" value="1" required>1</label><label><input type="radio" name="restoran" value="2">2</label>
-<label><input type="radio" name="restoran" value="3">3</label><label><input type="radio" name="restoran" value="4">4</label>
-<label><input type="radio" name="restoran" value="2">5</label></div></div>
+<div class="question"><label>Ortamın (ambiyans, müzik, dekor) genel durumunu nasıl değerlendirirsiniz?*</label><div class="options">
+<label><input type="radio" name="ortam_ambyns" value="1" required>1</label><label><input type="radio" name="ortam_ambyns" value="2">2</label>
+<label><input type="radio" name="ortam_ambyns" value="3">3</label><label><input type="radio" name="ortam_ambyns" value="4">4</label>
+<label><input type="radio" name="ortam_ambyns" value="2">5</label></div></div>
 
-<div class="question"><label>Otelin genel konforu *</label><div class="options">
-<label><input type="radio" name="genel_konfor" value="1"required>1</label><label><input type="radio" name="genel_konfor" value="2">2</label>
-<label><input type="radio" name="genel_konfor" value="3">3</label><label><input type="radio" name="genel_konfor" value="4">4</label>
-<label><input type="radio" name="genel_konfor" value="5">5</label></div></div>
+<div class="question"><label>Tekrar tercih eder misiniz?*</label><div class="options">
+<label><input type="radio" name="tekrar_tercihi" value="EVET"required>EVET</label><label><input type="radio" name="tekrar_tercihi" value="KARASIZIM">KARASIZIM</label>
+<label><input type="radio" name="tekrar_tercihi" value="HAYIR">HAYIR</label><label>
 
-<div class="question"><label>Genel memnuniyet *</label><div class="options">
-<label><input type="radio" name="genel_memnuniyet" value="1"required>1</label><label><input type="radio" name="genel_memnuniyet" value="2">2</label>
-<label><input type="radio" name="genel_memnuniyet" value="3">3</label><label><input type="radio" name="genel_memnuniyet" value="4">4</label>
-<label><input type="radio" name="genel_memnuniyet" value="5">5</label></div></div>
-
+<div class="question"><label>Bizi çevrenize tavsiye eder misiniz??*</label><div class="options">
+<label><input type="radio" name="cevreye_tavsye" value="EVET"required>EVET</label><label><input type="radio" name="cevreye_tavsye" value="KARASIZIM">KARASIZIM</label>
+<label><input type="radio" name="cevreye_tavsye" value="HAYIR">HAYIR</label><label>
 
 
 <div class="question">
-<label>“Daha iyi bir deneyim sunabilmemiz için görüş ve önerilerinizi paylaşır mısınız?”</label>
+<label>Geliştirilmesi gerektiğini düşündüğünüz konu nedir?</label>
 <textarea name="gelistirilecek_alan" rows="3" placeholder="Görüşlerinizi yazabilirsiniz..."></textarea>
 </div>
 
@@ -269,6 +229,16 @@ function likert(name){
 </div>
 
 <script>
+const form = document.querySelector("form[action]");
+form.addEventListener("submit", function () {
+    setTimeout(() => {
+        form.style.display = "none";
+        document.getElementById("tesekkur").style.display = "block";
+    }, 500);
+});
+</script>
+
+<script>
 document.getElementById("anketForm").addEventListener("submit", function(e){
     e.preventDefault(); // siyah OK ekranını engeller
 
@@ -277,10 +247,10 @@ document.getElementById("anketForm").addEventListener("submit", function(e){
         body: new FormData(this)
     });
 
-   
+    // formu gizle
     this.style.display = "none";
 
-    
+    // teşekkür mesajını göster
     document.getElementById("tesekkur").style.display = "block";
     
 });
@@ -289,4 +259,3 @@ document.getElementById("anketForm").addEventListener("submit", function(e){
 
 </body>
 </html>
-
